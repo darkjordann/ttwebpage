@@ -1,0 +1,178 @@
+.principalImage{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../resources/productos2/BoschDarkGreen.png');
+}
+
+.FirstText{
+    color: #FFFFFF;
+    font-size: 48px;
+    text-align: center;
+    padding-top: 3%;
+    font-family: 'BoschSans-Light';
+}
+
+.SecondText{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 40px;
+    font-family: 'BoschSans-Light';
+}
+
+/*introduccion styles*/
+
+.introduccionContainer{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 750px;
+    position: relative;
+    margin-top: 50px;
+}
+
+.titleTextintroduccion{
+    font-family: 'BoschSans-Light';
+    font-size: 48px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    max-width: 870px;
+    color: #32AE32;
+}
+
+.textIntroduccion{
+    font-family: 'BoschSans-Light';
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 870px;
+    color: #000000;
+    margin-bottom: 50px;
+}
+
+
+/*Seccion de productos*/
+.divTypeProducts{
+    font-family: 'BoschSans-Light';
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1170px;
+    color: #000000;
+    text-align: left;
+}
+
+.containerProductsOne{
+    position: absolute;
+    max-width: 1170px;
+}
+
+.itemContainerProduct{
+    float: left; 
+    width:33%; 
+    height:auto;
+    position: relative;
+    margin-bottom: 15px;
+    padding-right: 40px;
+}
+
+.imageItem{
+    width: 100%;
+    position: relative;
+}
+
+.imageProduct{
+    width: 100%;
+}
+
+.titleProduct{
+    font-family: 'BoschSans-Light';
+    font-size: 28px;
+    color: #000000;
+}
+
+.descriptionProduct{
+    font-family: 'BoschSans-Light';
+    font-size: 20px;
+    color: #000000;
+}
+
+.botonProduct{
+    font-family: 'BoschSans-Light';
+    font-size: 20px;
+    color: #005691;
+}
+
+
+
+/*Media Queries*/
+
+@media screen and (min-width: 992px){
+
+}
+
+@media screen and (max-width: 992px){
+    .itemContainerProduct{
+        width:50%;
+    }
+
+    #containerProducto1{
+        height: 1300px;
+    }
+
+    #containerProducto2{
+        height: 1300px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #containerProducto1{
+        height: 1500px;
+    }
+
+    #containerProducto2{
+        height: 1500px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .itemContainerProduct{
+        width:100%;
+    }
+
+    #containerProducto1{
+        height: 2400px;
+    }
+
+    #containerProducto2{
+        height: 2400px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .itemContainerProduct{
+        width:100%;
+    }
+
+    #containerProducto1{
+        height: 2100px;
+    }
+
+    #containerProducto2{
+        height: 2100px;
+    }
+}

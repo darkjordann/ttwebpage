@@ -1,0 +1,50 @@
+.principalImage{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../resources/solucionesC/u4732.png');
+}
+
+.FirstText{
+    color: #000000;
+    font-size: 48px;
+    text-align: center;
+    padding-top: 3%;
+    font-family: 'BoschSans-Light';
+}
+
+.SecondText{
+    color: #000000;
+    text-align: center;
+    font-size: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 40px;
+    font-family: 'BoschSans-Light';
+}
+
+
+/* introduccion */
+.containerDescription{
+    align-content: center;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+    position: relative;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.descriptionText{
+    font-family: 'BoschSans-Light';
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1170px;
+    color: #000000;
+}

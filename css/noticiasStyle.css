@@ -1,0 +1,116 @@
+.principalImage{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-image: url('../resources/Noticias/Termotecnologia_inicio_700px.jpg');
+}
+
+.FirstText{
+    color: #FFFFFF;
+    font-size: 48px;
+    text-align: center;
+    padding-top: 0%;
+    padding-bottom: 15%;
+    font-family: 'BoschSans-Light';
+}
+
+.SecondText{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 25%;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: 'BoschSans-Light';
+}
+
+
+/* items of Noticias */
+.containerItems{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    margin-bottom: 150px;
+    height: 1500px;
+}
+
+.centerItemsNoticias{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1170px;
+}
+
+.itemNoticiaContainer{
+    width: 33%;
+    float: left;
+    padding: 30px;
+}
+
+.imageContainer{
+    width: 100%;
+}
+
+.imageFull{
+    width: 100%;
+}
+
+.textContainer{
+    width: 100%;
+    position: relative;
+    min-height: 400px;
+}
+
+.titleText{
+    color: #000000;
+    font-family: 'BoschSans-Light';
+    font-size: 14px;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    height: 50px;
+}
+
+.descriptionText{
+    color: #005691;
+    font-family: 'BoschSans-Light';
+    font-size: 20px;
+    text-align: left;
+    height: 80%;
+    height: 300px;
+}
+
+.dateText{
+    color: #000000;
+    font-family: 'BoschSans-Light';
+    font-size: 14px;
+    text-align: right;
+    border-bottom: 1px solid #BFC0C2;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 10%;
+    height: 50px;
+}
+
+
+/* Media queries */
+
+@media screen and (max-width: 1024px){
+    .containerItems{
+        height: 1800px;
+    }
+
+    .itemNoticiaContainer{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .itemNoticiaContainer{
+        width: 100%;
+    }
+}

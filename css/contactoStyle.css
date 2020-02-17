@@ -1,0 +1,225 @@
+.principalImage{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-image: url('../resources/Contacto/Termotecnologia_inicio_1900x1070.jpg');
+}
+
+.FirstText{
+    color: #FFFFFF;
+    font-size: 48px;
+    text-align: center;
+    padding-top: 0%;
+    padding-bottom: 15%;
+    font-family: 'BoschSans-Light';
+}
+
+.SecondText{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 25%;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: 'BoschSans-Light';
+}
+
+/* items of Contacto */
+.CotainerItemsContact{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    margin-bottom: 250px;
+}
+
+.centerItemsContacto{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1170px;
+}
+
+.itemContactoContainer{
+    width: 100%;
+    height: 70px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.itemContactoContainerTextArea{
+    width: 100%;
+    height: 150px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.containerButton{
+    width: 100%;
+    height: 50px;
+}
+
+.textile{
+    font-family: 'BoschSans-Light';
+    font-size: 40px;
+    color: #78BE20;
+}
+
+.footerText{
+    font-family:'BoschSans-LightItalic';
+    font-size: 13px;
+    color: #000000;
+    text-align: left;
+    padding-left: 31%;
+}
+
+.buttonEnviar {
+    background-color: #005691;
+    border: 1px solid #005691;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'BoschSans-Light';
+    height: 40px;
+    width: 200px;
+    margin-top: 65px;
+}
+
+
+
+/* render inputs */
+
+.form-floating-label{
+    position: relative;
+    font-family:'BoschSans-Light';
+    padding-left: 30%;
+    padding-right: 30%;
+    font-size: 20px;
+}
+
+.inputText{
+	width: 100%;
+	outline: none;
+	border:none;
+	border-bottom: 1px solid #DEDFE0;
+ 	box-shadow: none !important;
+    border-radius:0;
+    height: 50px;
+    padding-left: 3%;
+}
+
+.inputTextArea{
+	width: 100%;
+	outline: none;
+	border:none;
+	border-bottom: 1px solid #DEDFE0;
+ 	box-shadow: none !important;
+    border-radius:0;
+    height: 150px;
+    padding-left: 3%;
+}
+
+.form-floating-label .inputTextArea:focus,
+.form-floating-label .inputText:focus{
+    border-radius:0;
+    background-color: #EFEFF0;
+}
+
+.form-floating-label .floating-label,
+.form-floating-label .floating-label {
+	position: absolute;
+	pointer-events: none;
+	top: 10%;
+	left: 31%;
+    transition: 0.9s ease all;
+    color: #BFC0C2;
+}
+
+.form-floating-label input:focus ~ .floating-label,
+.form-floating-label input:not(:focus):valid ~ .floating-label{
+	top: -40%;
+	left: 31%;
+	font-size: 12px;
+    opacity: 1;
+    border-radius:0;
+    font-family:'BoschSans-Bold';
+    color: #000000;
+}
+
+.form-floating-label textarea:focus ~ .floating-label,
+.form-floating-label textarea:not(:focus):valid ~ .floating-label{
+	top: -15%;
+	left: 31%;
+	font-size: 12px;
+    opacity: 1;
+    border-radius:0;
+    font-family:'BoschSans-Bold';
+    color: #000000;
+}
+
+
+/* inputs No longer/Correct/Incorrect */
+.floating-label-NotLonger{
+    position: absolute;
+	pointer-events: none;
+	top: 100%;
+	left: 31%;
+    transition: 0.9s ease all;
+    color: #EA0016;
+    font-size: 12px;
+    font-family:'BoschSans-Bold';
+    display: none;
+}
+
+.floating-label-Incorrect{
+    position: absolute;
+	pointer-events: none;
+	top: 100%;
+	left: 31%;
+    transition: 0.9s ease all;
+    color: #EA0016;
+    font-size: 12px;
+    font-family:'BoschSans-Bold';
+    display: none;
+}
+
+.incorrectInput{
+    border-bottom: 1px solid #EA0016;
+}
+
+.correctInput{
+    border-bottom: 1px solid #78BE20;
+}
+
+/* media queries */
+
+@media screen and (max-width: 600px){
+
+    .itemContactoContainer{
+        margin-top: 80px;
+        margin-bottom: 10px;
+    }
+
+    .form-floating-label{
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+
+    .footerText{
+        padding-left: 16%;
+    }
+
+    .form-floating-label .floating-label,
+    .form-floating-label .floating-label {
+	    left: 16%;
+    }
+
+    .form-floating-label textarea:focus ~ .floating-label,
+    .form-floating-label textarea:not(:focus):valid ~ .floating-label,
+    .form-floating-label input:focus ~ .floating-label,
+    .form-floating-label input:not(:focus):valid ~ .floating-label{
+        left: 16%;
+    }
+
+}

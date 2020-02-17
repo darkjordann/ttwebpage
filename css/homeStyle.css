@@ -1,0 +1,370 @@
+.principalImage{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-image: url('../resources/home/Termotecnologia_inicio_1900x1070.jpg');
+}
+
+.FirstText{
+    color: #FFFFFF;
+    font-size: 48px;
+    text-align: center;
+    padding-top: 0%;
+    padding-bottom: 15%;
+    font-family: 'BoschSans-Light';
+}
+
+.SecondText{
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding-top: 25%;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: 'BoschSans-Light';
+}
+
+/*introduccion styles*/
+
+.introduccionContainer{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+}
+
+.titleTextintroduccion{
+    font-family: 'BoschSans-Light';
+    font-size: 48px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1170px;
+    margin-bottom: 20px;
+    color: #005691;
+    text-align: left;
+}
+
+.textIntroduccion{
+    font-family: 'BoschSans-Light';
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1170px;
+    color: #000000;
+    text-align: justify;
+}
+
+/* Contenedor de imagen */
+
+.imageContainer{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.imageSpace{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1170px;
+    height: auto;
+}
+
+.imgHome{
+    width: 100%;
+    position: relative;
+}
+
+/* Contenerdor de imagen con descripcion 1*/
+
+.imageAndTextContainer{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+    height: 600px;
+    margin-bottom: 200px;
+}
+
+.imageandTextSpace{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1170px;
+    height: auto;
+    position: relative;
+    text-align: left;
+}
+
+.imageContainerRight{
+    float: right;
+    width: 60%;
+    padding-left: 10px;
+}
+
+.imgAndDescription{
+    width: 100%;
+}
+
+.textContainerLeft{
+    color: #000000;
+    font-size: 20px;
+    font-family: 'BoschSans-Light';
+}
+
+/* Blue Banner with gradient*/
+.Banner{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(to right, #008ECF, #00A8B0 );
+    width: 100%;
+    margin-bottom: 100px;
+    height: 300px;
+}
+
+.ContenerdorExterno{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 300px;
+}
+
+.ContenedorCentral{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 870px;
+    height: auto;
+    position: relative;
+}
+
+
+.textBanner{
+    font-family: 'BoschSans-Light';
+    font-size: 28px;
+    color: #FFFFFF;
+    text-align: center;
+    position: absolute;
+    margin-top: 70px;
+}
+
+/* Autor y frase  */
+
+.AutorAndTextContainer{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 700px;
+}
+
+.imageandPhraseSpace{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1170px;
+    height: auto;
+    position: relative;
+}
+
+.imageContainerLeft{
+    float: left;
+    width: 30%;
+    padding-right:80px ;
+}
+
+.imgAndDescription{
+    width: 100%;
+}
+
+.textContainerRight{
+    width: 70%;
+    float: right;
+    text-align: left;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 2px;
+    color: #000000;
+    font-size: 65px;
+    font-family: 'BoschSans-Light';
+    line-height: 65px;
+}
+
+.footerImage{
+    width: 100%;
+    position: relative;
+}
+
+.lineTextAutor{
+    width: 70%;
+    float: left;
+    margin-top: 32px;
+    height: 1px;
+    background-color: #000000;
+}
+.textAutor{
+    color: #000000;
+    font-size: 12px;
+    font-family: 'BoschSans-Bold';
+}
+
+/* Alcances container */
+
+.alcancesContainer{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+}
+
+.titleTextAlcances{
+    font-family: 'BoschSans-Light';
+    font-size: 48px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1170px;
+    color: #00A8B0;
+    text-align: left;
+}
+
+.TwoTextAlcances{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1170px;
+    height: auto;
+    position: relative;
+}
+
+.textalcancesLeft{
+    font-family: 'BoschSans-Light';
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #000000;
+    text-align: justify;
+    float: left;
+    width: 50%;
+}
+
+.textalcancesRight{
+    font-family: 'BoschSans-Light';
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    color: #000000;
+    text-align: justify;
+    float: right;
+    width: 50%;
+}
+
+/* Map (image) in home */
+
+/*Hashtag de las redes sociales*/
+
+.Hashtag{
+    height: auto; 
+    color:#005691;
+    font-family:'BoschSans-Light'; 
+    font-size: 48px;
+    text-align: center; 
+    margin-top: 100px; 
+}
+
+  /**********************Render Social media feed*********************************************/
+
+  #divOfSocialFeed > ul > h1.referral > a{
+    display: none;
+}
+
+#divOfSocialFeed > ul > div.j-stacker-wrapper > div.j-stacker > div#j-column-0 > li.juicer{
+    display: none;
+}
+
+#divOfSocialFeed > ul > div.j-stacker-wrapper > div.j-stacker > div#j-column-1 > li.juicer{
+    display: none;
+}
+
+#divOfSocialFeed > ul > div.j-stacker-wrapper > div.j-stacker > div#j-column-2 > li.juicer{
+    display: none;
+}
+
+#divOfSocialFeed > ul > div.j-stacker-wrapper > div.j-stacker > div#j-column-3 > li.juicer{
+    display: none;
+}
+
+#divOfSocialFeed > ul > div.j-stacker-wrapper > div.j-stacker > div#j-column-3 > li.juicer{
+    display: none;
+}
+
+#jivo-iframe-container{
+    background-color: aqua;
+}
+
+/* Media queries */
+@media screen and (max-width: 1200px){
+    .imageContainerRight{
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    .textContainerLeft{
+        width: 100%;
+        margin-bottom: 300px;
+    }
+
+    .Banner{
+        margin-top: 800px;
+    }
+
+    .imageContainerLeft{
+        width: 100%;
+        padding-right:0px;
+    }
+
+    .textContainerRight{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .Banner{
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .Banner{
+        height: 600px;
+    }
+}

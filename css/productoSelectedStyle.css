@@ -1,0 +1,187 @@
+.principalImage{
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../resources/productos1/Crop-upergraphic.png');
+}
+
+.FirstText{
+    color: #000000;
+    font-size: 48px;
+    text-align: center;
+    padding-top: 3%;
+    font-family: 'BoschSans-Light';
+}
+
+.SecondText{
+    color: #000000;
+    text-align: center;
+    font-size: 20px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 40px;
+    font-family: 'BoschSans-Light';
+}
+
+/*introduccion styles*/
+
+.introduccionContainer{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+}
+
+/*Sección centrada*/
+.divTypeProducts{
+    font-family: 'BoschSans-Light';
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1170px;
+    color: #000000;
+    text-align: left;
+    position: relative;
+}
+
+.containerProductDes{
+    display: inline-block; 
+    margin: 0 auto;
+    max-width: 1170px;
+    width: 100%;
+}
+
+/* titulo de introducción */
+.titleTextintroduccion{
+    font-family: 'BoschSans-Light';
+    font-size: 48px;
+    color: #B90276;
+    width: 100%;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+/* Contedores de información (IZQ y DER) */
+/* Container Left */
+.containerLeft{
+    float: left; 
+    width:50%; 
+    height:auto;
+    position: relative;
+    padding-bottom: 50px;
+    min-height: 400px;
+    font-size: 20px;
+}
+
+.centerText{
+    position: absolute;
+    top: 50%;
+    webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.textLeft{
+    padding-right: 70px;
+    margin-bottom: 20px;
+}
+
+.links{
+    color: #005691;
+    margin-bottom: 10px;
+}
+
+
+/* Container Right */
+.containerRight{
+    float: right; 
+    width:50%; 
+    height:auto;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: #B90276;
+    color: #FFFFFF;
+    min-height: 400px;
+    font-size: 20px;
+}
+
+.titleBullets{
+    margin-bottom: 20px;
+    font-family: 'BoschSans-Bold';
+}
+
+.containerBullet{
+    width: 100%;
+    padding-left: 20px;
+}
+
+.bullet{
+    width: 5%;
+    float: left;
+}
+
+.textBullet{
+    width: 95%;
+    float: left;
+}
+
+
+/* image of product */
+.containerImage{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    margin-top: 150px;
+}
+
+.centerImage{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1170px;
+    position: relative;
+}
+
+.imageProduct{
+    width: 100%;
+}
+
+
+
+/*Media Queries*/
+
+@media screen and (max-width: 992px){
+    .containerLeft{
+        width:100%;
+        height: auto;
+    }
+
+    .containerRight{
+        width:100%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .textLeft{
+        padding-right: 0px;
+    }
+
+    .containerRight{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    
+    .containerBullet{
+        padding-left: 0px;
+    }
+}

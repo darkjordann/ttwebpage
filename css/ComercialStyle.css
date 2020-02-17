@@ -1,0 +1,548 @@
+.principalImage{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-image: url('../resources/Comercial/u4520.png');
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+.whiteSquare{
+    background-color: white;
+    text-align: left;
+    font-family: 'BoschSans-Light';
+    padding: 20px;
+    width: 40%;
+    margin-left: 245px;
+}
+
+.titleWhiteSquare{
+    font-size: 48px;
+}
+
+.descriptionWhiteSquare{    
+    font-size: 20px;
+}
+
+.leerMasButton{
+    height: 40px;
+    width: 200px;
+    font-size: 20px;
+    background-color: #005691;
+    color: white;
+    border:none;
+    margin-top: 20px;
+}
+
+/* Introduccion text */
+
+.introduccionContainer{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.titleTextintroduccion{
+    font-family: 'BoschSans-Light';
+    font-size: 48px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1170px;
+    margin-bottom: 20px;
+    color: #32AE32;
+}
+
+.textIntroduccion{
+    font-family: 'BoschSans-Light';
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1170px;
+    color: #000000;
+}
+
+
+/* Carousel items */
+
+.carouselImages{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    height: 450px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-image: url('../resources/residencial/graySupergraphic.png');
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.containerCenter{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1170px;
+}
+
+.titleCarousel{
+    font-family: 'BoschSans-Light';
+    font-size: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1170px;
+    margin-bottom: 50px;
+    color: #005691;
+}
+
+.imagesCarousel{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1170px;
+    position: relative;
+}
+
+.arrowLeft{
+    width: 5%;
+    float: left;
+    padding-top: 70px;
+    cursor: pointer;
+}
+
+.imageCarNext{
+    width: 100%;
+}
+
+.centerImages{
+    float: left;
+    width: 90%;
+    max-width: 1050px;
+    align-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.containerImgCar{
+    width: 33%;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+}
+
+.imageCar{
+    width: 100%;
+}
+
+.imageInsideCar{
+    width: 100%;
+}
+
+.footerImg{
+    height: 70px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: #FFFFFF;
+    padding-top: 15px;
+    position: relative;
+    width: 100%;
+}
+
+.footerText{
+    width: 80%;
+    color: #005691;
+    font-family: 'BoschSans-Light';
+    font-size: 20px;
+    float: left;
+    text-align: left;
+}
+
+.footerPlus{
+    width: 20%;
+    color: #005691;
+    font-size: 20px;
+    float: right;
+    text-align: right;
+    cursor: pointer;
+}
+
+.moreText{
+    min-height: 200px;
+    padding-right: 30px;
+    padding-left: 30px;
+    background-color: #FFFFFF;
+    padding-top: 15px;
+    position: relative;
+    width: 100%;
+    border-top: 1px solid #BFC0C2;
+}
+
+.descriptionCarousel{
+    width: 100%;
+    color: #000000;
+    font-family: 'BoschSans-Light';
+    font-size: 20px;
+    float: left;
+    text-align: left;
+}
+
+.arrowRight{
+    width: 5%;
+    float: right;
+    padding-top: 70px;
+    cursor: pointer;
+}
+
+.hideItem{
+    display: none;
+}
+
+.itemLeft{
+    float: left;
+}
+
+.itemCenter{
+    float: center;
+}
+
+.itemRight{
+    float: right;
+}
+/* titulo, texto, imagen */
+
+.containerTitleImageDescip{
+    align-content: center;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.titleText1{
+    font-family: 'BoschSans-Light';
+    font-size: 48px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1170px;
+    margin-bottom: 20px;
+    color: #32AE32;
+}
+
+.imageSpace{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1170px;
+    height: auto;
+}
+
+.imgfull{
+    margin-bottom: 20px;
+    width: 100%;
+    position: relative;
+}
+
+.text1{
+    font-family: 'BoschSans-Light';
+    font-size: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1170px;
+    color: #000000;
+}
+
+/* Image and banner */
+.imageAndBanner{
+    width: 100%;
+}
+
+.imgContainerFull{
+    width: 100%;
+}
+
+.imageFullB{
+    width: 100%;
+}
+
+.bannerResidencial{
+    align-content: center;
+    align-items: center;
+    text-align: left;
+    background: linear-gradient(to right, #005691, #008ECF );
+    width: 100%;
+    margin-bottom: 100px;
+    height: 300px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    padding-right: 215px;
+    padding-left: 215px;
+}
+
+.titleBanner{
+    font-size: 48px;
+    font-family: 'BoschSans-Light';
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.descriptionBanner{
+    font-size: 20px;
+    font-family: 'BoschSans-Light';
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.buttonLeerMas{
+    background-color: white;
+    border: 1px solid #dedfe0;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'BoschSans-Light';
+    height: 40px;
+    width: 200px;
+}
+
+
+/* Conoce mas sobre nosotros */
+.TitleConoceMas{
+    height: auto; 
+    color:#32AE32;
+    font-family:'BoschSans-Light'; 
+    font-size: 48px;
+    text-align: center; 
+    margin-top: 100px; 
+}
+
+.knowMoreContainer{
+    align-content: center;
+    align-items: center;
+    text-align: left;
+    width: 100%;
+    height: 830px;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.centerContentKnowMore{
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1170px;
+    height: auto;
+}
+
+.firstImageKM{
+    width: 440px;
+    height: 400px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-image: url('../resources/residencial/Residencial_400x400px_Productos.jpg');
+    color: #FFFFFF;
+    padding:30px;
+    position: relative;
+}
+
+.secondImageKM{
+    width: 700px;
+    height: 400px;
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-image: url('../resources/residencial/Residencial_700x400px_Capacitacion.jpg');
+    color: #FFFFFF;
+    padding:30px;
+    position: relative;
+}
+
+.thirdImageKM{
+    width: 700px;
+    height: 400px;
+    float: left;
+    margin-right: 15px;
+    margin-top: 15px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-image: url('../resources/residencial/Residencial_700x400px_Servicio tecnico.jpg');
+    color: #FFFFFF;
+    padding:30px;
+    position: relative;
+}
+
+.fourImageKM{
+    width: 440px;
+    height: 400px;
+    float: right;
+    margin-left: 15px;
+    margin-top: 15px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-image: url('../resources/residencial/Residencial_400x400px_Fichas tecnicas.jpg');
+    color: #FFFFFF;
+    padding:30px;
+    position: relative;
+}
+
+
+.titleContentKM{
+    font-size: 32px;
+    font-family: 'BoschSans-Bold';
+    margin-top: 220px;
+}
+
+.descriptionContentKM{
+    font-size: 20px;
+    font-family: 'BoschSans-Light';
+}
+
+
+/* Media querys */
+
+@media screen and (max-width: 1200px){
+    .whiteSquare{
+        width: 50%;
+    }
+
+    .bannerResidencial{
+        height: 400px;
+        padding-right: 200px;
+        padding-left: 200px;
+    }
+
+    .fullImage{
+        width: 100%;
+    }
+
+    .fourImageKM{
+        margin-bottom: 150px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .whiteSquare{
+        margin-left: 200px;
+    }
+
+    .bannerResidencial{
+        height: 450px;
+        padding-right: 180px;
+        padding-left: 180px;
+    }
+
+    .carouselImages{
+        height: 500px;
+    }
+
+    .containerImgCar{
+        width: 50%;
+    }
+
+    .itemRight{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .whiteSquare{
+        margin-left: 150px;
+    }
+
+    .bannerResidencial{
+        height: 500px;
+        padding-right: 160px;
+        padding-left: 160px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .whiteSquare{
+        margin-left: 100px;
+        width: 60%;
+    }
+
+    .bannerResidencial{
+        height: 550px;
+        padding-right: 140px;
+        padding-left: 140px;
+    }
+
+    .titleContentKM{
+        margin-top: 150px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .whiteSquare{
+        margin-left: 50px;
+        width: 70%;
+    }
+
+    .bannerResidencial{
+        height: 600px;
+        padding-right: 100px;
+        padding-left: 100px;
+    }
+
+    .containerImgCar{
+        width: 100%;
+    }
+
+    .itemCenter{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .titleWhiteSquare{
+        font-size: 40px;
+    }
+
+    .titleTextintroduccion{
+        font-size: 40px;
+    }
+
+    .whiteSquare{
+        margin-left: 20px;
+        width: 80%;
+    }
+
+    .bannerResidencial{
+        height: 650px;
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .bannerResidencial{
+        height: 700px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}

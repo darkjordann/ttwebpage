@@ -1,0 +1,452 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+
+a {
+    text-decoration: none !important;
+    cursor: pointer;
+}
+
+::placeholder {
+    color: #BFC0C2;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #BFC0C2;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: #BFC0C2;
+}
+
+  /* clases e id's */
+
+.SupergraphicHeader{
+    top: 0%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+
+.supergraphic{
+    max-height: 50px;
+    min-height: 20px;
+    width: 100%;
+}
+
+.CentralContent{
+    width: 100%;
+    max-height: 100%;
+}
+
+
+/*Logo y titulos de header*/
+.logoAndText{
+    height: 100px;
+    background-color: white;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    font-family: 'BoschSans-Light';
+}
+
+.container-fluidH{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1170px;
+}
+
+.LogoContainer{
+    width: 49%;
+    float: left;
+    position: relative;
+}
+
+.imageLogo{
+    height: 60px;
+    position: absolute;
+    margin-top: 25px;
+}
+
+.TextHeader{
+    width: 48%;
+    float: right;
+    position: relative;
+    background-color: white;
+}
+
+.TextInside{
+    text-align: right;
+    margin-top: 20px;
+    color: #8F9091;
+}
+
+.linkTiles{
+    font-size: 12px;
+    color: #8F9091;
+    text-decoration: none;
+}
+
+.linkTiles:hover{
+    color: #005691;
+}
+
+.TilePage{
+    font-size: 25px;
+    color: #000000;
+    margin-top: 15px;
+}
+
+
+
+/* Styles of Nav Bar*/
+
+.navRow{
+    width: 100%;
+}
+
+.navContainer{
+    align-content: center;
+    align-items: center;
+    position: relative;
+    font-family: 'BoschSans-Regular';
+}
+
+.navFluid{
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1200px;
+}
+
+.navbar-default{
+    background-color: white;
+    border-top-color: white;
+    border-left-color: white;
+    border-right-color: white;
+    border-bottom: 1.5px solid #e6e6e6;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 0px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    font-family:'BoschSans-Regular';
+    font-size: 16px;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #005691;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #005691;
+    background-color: #FFFFFF;
+    border-bottom: 1.5px solid #005691;
+}
+
+
+
+/* Styles of sub menu behind navBar */
+.submenuNav{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1170px;
+    height: 50px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.submenuNavbar{
+    font-family:'BoschSans-Light';
+    font-size: 12px;
+    color: #BFC0C2;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    text-decoration: none !important;
+}
+
+.submenuNavbar > a:hover,
+.submenuNavbar > a:focus{
+    color: #005691;
+}
+
+.submenuItemActive{
+    color: #000000;
+}
+
+
+/*Hamburger Button*/
+
+.hamburgerButton{
+    margin-bottom: 10px;
+    margin-left: 15px;
+    background-color: white;
+    border: none;
+}
+
+.hamburgerButton:hover {
+    background-color: red;
+}
+
+
+/*Style of search*/
+.searchToggle{
+    display: none;
+    float: right;
+}
+
+.searchContainer{
+    background-color: white;
+    border-top-color: white;
+    border-left-color: white;
+    border-right-color: white;
+    border-bottom: 1.5px solid #e6e6e6;
+    border-radius: 0px;
+    font-family: 'BoschSans-Light';
+}
+
+.searchInput{
+    border:none;
+    color: #000000;
+    font-size: 16px;
+    padding-left: 5px;
+}
+
+.searchButton{
+    border-color: white;
+    background-color: white;
+}
+
+
+
+/*Gray lines and connectors*/
+
+.SpaceGrey {
+    height: 30%;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    vertical-align: bottom;
+}
+
+.circle {
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    border: 3px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+
+.line {
+    height: 16vh;
+    width: 2px;
+    background-color: #FFFFFF;
+}
+
+.Connector{
+    height:30%; 
+    width: 100%; 
+    align-content:center; 
+    text-align: center; 
+    align-items: center; 
+    justify-content: center;
+    display: flex
+}
+
+.lineGray{
+    height: 15vh; 
+    width: 2px; 
+    background-color: #F2F2F2;
+}
+
+.ConnectorBanner{
+    height:100px; 
+    width: 100%; 
+    align-content:center; 
+    text-align: center; 
+    align-items: center; 
+    justify-content: center;
+    display: flex;
+}
+
+.lineGrayBanner{
+    height: 100%; 
+    width: 2px; 
+    background-color: #F2F2F2;
+    position: relative;
+}
+
+
+/* line-circle-line, gray */
+.conectorContainer{
+    height: auto;
+}
+
+.lineGrayContaier{
+    height:30%; 
+    width: 100%; 
+    align-content:center; 
+    text-align: center; 
+    align-items: center; 
+    justify-content: center;
+    display: flex; 
+    vertical-align: bottom
+}
+
+.circleContainer{
+    height:30%; 
+    width: 100%; 
+    align-content:center; 
+    text-align: center; 
+    align-items: center; 
+    justify-content: center;
+    display: flex; 
+    vertical-align:bottom; 
+    margin-top: 0%;
+}
+
+.lineGrayUp{
+    height: 15vh; 
+    width: 2px; 
+    background-color: #F2F2F2;
+}
+
+.circleMiddle{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 50%;
+    background-color: #FFFFFF; 
+    border:3px solid #F2F2F2;
+}
+
+.lineDown{
+    height: 15vh; 
+    width: 2px; 
+    background-color: #F2F2F2;
+}
+
+/*Nota legal Footer*/
+
+.LegalContenedor{
+    margin-top: 10%;
+    width: 100%; 
+    color:#000000; 
+    text-align: start;
+    align-content: center; 
+}
+
+.legalExtra{
+    position: relative;
+    margin-bottom: 1%;
+    width: 100%;
+}
+
+.ApartadosLegal{
+    font-family:'BoschSans-Light'; 
+    font-size: 12px; 
+    color: #000000; 
+    margin-left:2%;
+    text-decoration: none !important;
+}
+
+.LastText{
+    font-family:'BoschSans-Bold'; 
+    font-size:14px; 
+    /*padding-top:1%; */
+    margin-left:2%; 
+    text-decoration: none !important;
+    color: #000000; 
+    cursor: default;
+}
+
+.LastText:hover{
+    color: #000000; 
+}
+
+
+
+/*Estilos del footer*/
+.SupergraphicFooter{
+    bottom: 0px;
+    width: 100%;
+}
+
+
+/*Media query*/
+
+@media screen and (max-width: 1200px){
+
+}
+
+@media screen and (max-width: 992px){
+    .navbar-header {
+        float: none;
+    }
+    .navbar-toggle, .searchToggle {
+        display: block;
+    }
+
+    .searchNormal{
+        display: none!important;
+    }
+    
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin-top: 0;
+        margin-bottom: 3px;
+        
+    }
+    .navbar-nav>li {
+        float: none;
+        border-bottom: 1.5px solid #e6e6e6;
+    }
+    .navbar-nav>li>a {
+        margin-right: 80%;
+    }
+    .navbar-text {
+        float: none;
+    }
+
+    
+    .navbar-collapse.collapse.in { 
+        display: block!important;
+    }
+    .collapsing {
+        overflow: hidden!important;
+    }
+
+    .searchContainer{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .logoAndText{
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .logoAndText{
+        height: 200px;
+    }
+}

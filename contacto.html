@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Contacto</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous">
+  
+  <!-- jQuery library -->
+  <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" crossorigin="anonymous">
+  
+  <!--Custom Bosch fonts-->
+  <link href="fonts/boschFonts.css" rel="stylesheet" />
+
+  <!--Custom header and footer styles, include nav-bar-->
+  <link href="css/headerFooterStyle.css" rel="stylesheet" />
+
+  <!--Specific styles in Contacto-->
+  <link href="css/contactoStyle.css" rel="stylesheet" />
+
+  <!-- Functions of contacto -->
+  <script src="js/contactoFunction.js"></script>
+
+</head>
+
+<body>
+    <!-- supergraphic del header-->
+    <div class="SupergraphicHeader">
+        <img src="resources/headerFooter/supergraphic.png" class="supergraphic">
+    </div>
+
+    <div class="CentralContent">
+
+        <div class="logoAndText">
+            <div class="container-fluidH">
+                <div class="LogoContainer">
+                    <a href="home.html">
+                        <img src="resources/headerFooter/BoschLogo.png" class="imageLogo">
+                    </a>
+                </div>
+                <div class="TextHeader">
+                    <div class="TextInside">
+                        <a class="linkTiles">Bosch termotecnología del mundo</a> | <a class="linkTiles" >Bosch México</a>
+                        <div class="TilePage">Bosch Termotecnología México</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="navRow">
+            <nav class="navbar navbar-expand-lg navContainer navbar-default">
+                <div class="navFluid">
+                    <div class="navbar-header">
+                        <button type="button" class="pull-left navbar-toggle collapsed hamburgerButton" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>                        
+                        </button>
+                        <div class="searchToggle">
+                            <form class="form-inline my-2 my-lg-0 searchContainer">
+                                <input type="text" placeholder="Búsqueda" name="search" class="searchInput">
+                                <button class="btn btn-outline-success my-2 my-sm-0 searchButton" type="submit"><img src="resources/headerFooter/bosch_search.png" height="25" width="25"></span> </button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a href="home.html">Inicio</a>
+                            </li>
+                            <li >
+                                <a href="residencial.html">Residencial </a>
+                            </li>
+                            <li >
+                                <a href="Comercial.html">Comercial </a>
+                            </li>
+                            <li>
+                                <a href="industrial.html">Industrial </a>
+                            </li>
+                            <li>
+                                <a href="noticias.html">Noticias </a>
+                            </li>
+                            <li class="active">
+                                <a href="contacto.html">Contacto </a>
+                            </li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right searchNormal">
+                            <form class="form-inline my-2 my-lg-0 searchContainer">
+                                <input type="text" placeholder="  Búsqueda" name="search" class="searchInput">
+                                <button class="btn btn-outline-success my-2 my-sm-0 searchButton" type="submit"><img src="resources/headerFooter/bosch_search.png" height="20" width="20"></span> </button>
+                            </form>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <!--Sub menu behind NavBar-->
+            <div class="submenuNav" >
+                <a class="submenuNavbar submenuItemActive" href="contacto.html">Contacto</a>
+                <img src="resources/headerFooter/arrowRight.png" style="height: 18px; width: 18px;" /> 
+            </div>
+
+        </div>
+
+        <!--Principal Content-->
+        <div class="principalImage">
+            <p class="SecondText" id="SegundoTexto"> Conoce mas información sobre tus necesidades</p>
+            <p class="FirstText" id="PrimerTexto">Comunícate con nosotros</p>
+
+            <div style="bottom: 0;">
+                <div class="SpaceGrey">
+                <!--Line and circle of connector-->
+                <div class="circle"></div>
+                </div>
+                <div class="SpaceGrey">
+                <!--Line and circle of connector-->
+                <div class="line"></div>
+                </div>
+            </div>
+        </div>
+
+        <!--Line gray-->
+        <div class="Connector">
+            <!--Line and circle of connector-->
+            <div class="lineGray"></div>
+        </div>
+
+        <!-- Form of Contact -->
+        <form id="formContact" method="post" enctype="multipart/form-data" action="#">
+            <div class="CotainerItemsContact">
+                <div class="centerItemsContacto">
+
+                    <div class="itemContactoContainer">
+                        <div class="textile">
+                            Envíanos un email:
+                        </div>
+                    </div>
+
+                    <div class="itemContactoContainer">
+                        <div class="form-floating-label">
+                            <input class="inputText" id="nombre" name="nombre" onkeyup="validateInput(1)" required="false" type="text"/> 
+                            <span id="nombreCont" class="floating-label">Nombre *</span>
+
+                            <span id="nombreNL" class="floating-label-NotLonger">El texto es muy corto </span>
+                            <span id="nombreIn" class="floating-label-Incorrect">Este campo es obligatorio</span>
+                        </div>
+                    </div>
+
+                    <div class="itemContactoContainer">
+                        <div class="form-floating-label">
+                            <input class="inputText" id="empresa" name="empresa" onkeyup="validateInput(2)" required="false" type="text"/> 
+                            <span id="empresaCont" class="floating-label">Empresa *</span>
+
+                            <span id="empresaNL" class="floating-label-NotLonger">El texto es muy corto </span>
+                            <span id="empresaIn" class="floating-label-Incorrect">Este campo es obligatorio</span>
+                        </div>
+                    </div>
+
+                    <div class="itemContactoContainer">
+                        <div class="form-floating-label">
+                            <input class="inputText" id="ciudad" name="ciudad" onkeyup="validateInput(3)" required="false" type="text"/> 
+                            <span id="ciudadCont" class="floating-label">Ciudad *</span>
+
+                            <span id="ciudadNL" class="floating-label-NotLonger">El texto es muy corto </span>
+                            <span id="ciudadIn" class="floating-label-Incorrect">Este campo es obligatorio</span>
+                        </div>
+                    </div>
+
+                    <div class="itemContactoContainer">
+                        <div class="form-floating-label">
+                            <input class="inputText" id="email" name="email" onkeyup="validateInput(4)" required="false" type="text"/> 
+                            <span id="emailCont" class="floating-label">Email *</span>
+
+                            <span id="emailNL" class="floating-label-NotLonger">El texto es muy corto </span>
+                            <span id="emailIn" class="floating-label-Incorrect">Este campo es obligatorio</span>
+                        </div>
+                    </div>
+
+                    <div class="itemContactoContainerTextArea">
+                        <div class="form-floating-label">
+                            <textarea class="inputTextArea" id="mensaje" name="mensaje" onkeyup="validateInput(5)" required="false" type="text"></textarea>
+                            <span id="mensajeCont" class="floating-label">Mensaje *</span>
+
+                            <span id="mensajeNL" class="floating-label-NotLonger">El texto es muy corto </span>
+                            <span id="mensajeIn" class="floating-label-Incorrect">Este campo es obligatorio</span>
+                        </div>
+                    </div>
+
+                    <div class="itemContactoContainer">
+                        <div class="footerText">
+                            * Campos obligatorios
+                        </div>
+                    </div>
+
+                    <div class="containerButton">
+                        <button class="buttonEnviar" type="submit">Enviar</button>
+                    </div>
+
+                </div>
+            </div>
+        </form>
+
+
+        <!--information in footer-->
+        <div class="LegalContenedor">
+            <div class="legalExtra">
+                <a class="LastText"> © Robert Bosch México S.A. de C.V 2020, todos los derechos reservados </a>
+                <a  href="#" class="ApartadosLegal" >Términos de uso</a>
+                <a  href="#" class="ApartadosLegal">Nota legal</a>
+                <a  href="#" class="ApartadosLegal">Aviso de privacidad</a>
+                <a  href="#" class="ApartadosLegal">Privacidad de datos</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="SupergraphicFooter">
+        <img src="resources/headerFooter/supergraphic.png" class="supergraphic">
+    </div>
+</body>
+
+</html>
